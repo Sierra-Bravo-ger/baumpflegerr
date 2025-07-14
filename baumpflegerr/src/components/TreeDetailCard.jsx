@@ -182,7 +182,7 @@ const TreeDetailCard = ({ tree, onClose, onEdit, onPrint, onSave }) => {
                 ? 'border-b-2 border-green-600 text-green-600' 
                 : 'text-gray-600 hover:text-green-600'}`}
             >
-              Messungen ({sortedMetrics.length})
+              Baumdaten ({sortedMetrics.length})
             </button>
             <button 
               onClick={() => setActiveTab('inspections')}
@@ -190,7 +190,7 @@ const TreeDetailCard = ({ tree, onClose, onEdit, onPrint, onSave }) => {
                 ? 'border-b-2 border-green-600 text-green-600' 
                 : 'text-gray-600 hover:text-green-600'}`}
             >
-              Inspektionen ({sortedInspections.length})
+              Kontrolle ({sortedInspections.length})
             </button>
             <button 
               onClick={() => setActiveTab('actions')}
